@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3ec57c1-21d1-4e53-bf84-989a52258883" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1fevg3D1Q8ji7S6n0Ky7DsBFVaj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020빅콘테스트 문제데이터(혁신아이디어분야)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3ec57c1-21d1-4e53-bf84-989a52258883" name="Default Changelist" comment="" />
+      <created>1596591480321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596591480321</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596592958219">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1280.986/0.0.1536.834@0.0.1536.834" timestamp="1596592958219" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1596591638983">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/1920.0.1280.986/0.0.1536.834@0.0.1536.834" timestamp="1596591638983" />
+    <state width="1516" height="150" key="GridCell.Tab.0.bottom" timestamp="1596598976151">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1516" height="150" key="GridCell.Tab.0.bottom/1920.0.1280.986/0.0.1536.834@0.0.1536.834" timestamp="1596598976151" />
+    <state width="1249" height="150" key="GridCell.Tab.0.bottom/1920.0.1280.986/0.0.1536.834@1920.0.1280.986" timestamp="1596595151393" />
+    <state width="1516" height="150" key="GridCell.Tab.0.center" timestamp="1596598976150">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1516" height="150" key="GridCell.Tab.0.center/1920.0.1280.986/0.0.1536.834@0.0.1536.834" timestamp="1596598976150" />
+    <state width="1249" height="150" key="GridCell.Tab.0.center/1920.0.1280.986/0.0.1536.834@1920.0.1280.986" timestamp="1596595151392" />
+    <state width="1516" height="150" key="GridCell.Tab.0.left" timestamp="1596598976150">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1516" height="150" key="GridCell.Tab.0.left/1920.0.1280.986/0.0.1536.834@0.0.1536.834" timestamp="1596598976150" />
+    <state width="1249" height="150" key="GridCell.Tab.0.left/1920.0.1280.986/0.0.1536.834@1920.0.1280.986" timestamp="1596595151392" />
+    <state width="1516" height="150" key="GridCell.Tab.0.right" timestamp="1596598976151">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1516" height="150" key="GridCell.Tab.0.right/1920.0.1280.986/0.0.1536.834@0.0.1536.834" timestamp="1596598976151" />
+    <state width="1249" height="150" key="GridCell.Tab.0.right/1920.0.1280.986/0.0.1536.834@1920.0.1280.986" timestamp="1596595151393" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1596591792368">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/1920.0.1280.986/0.0.1536.834@0.0.1536.834" timestamp="1596591792368" />
+  </component>
+</project>
