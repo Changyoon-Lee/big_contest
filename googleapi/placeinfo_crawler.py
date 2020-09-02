@@ -3,7 +3,7 @@ import pickle
 from datetime import datetime
 import os
 
-api_key = "AIzaSyB3wmDt_MLRyFNKiw7UOlkOBykv5ASlTX8"
+api_key = ""
 category = ["cafe", "bank", "bar", "restaurant", "department_store"]
 # 하계역 37.635976, 127.068218// 37.640243, 127.063671 에서부터 37.631768, 127.073113
 # 을지로입구역 37.565969, 126.982572// 37.566119, 126.982694/ 37.567825, 126.987348 에서부터 37.563877, 126.978664
