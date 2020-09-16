@@ -1,6 +1,8 @@
 googleapi/실시간data/*
 *.pickle
 *.pkl
+*.csv
+*.zip
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
