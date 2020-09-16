@@ -22,12 +22,16 @@ class DFyoon:
         self.station_list = [i for i in self.station_gu_dic.keys()]
     
     def sta_merg(self, station, last_nday=7):
-        df1 = make_sumcount(self.dic_gu_count[self.station_gu_dic[station]], last_nday=last_nday)[['date', 'sumcount']]
-        df2 = make_sumcount(self.df_junguk, last_nday=last_nday)[['sumcount']]
-        self.df_merged = pd.merge(df1,df2, on = 'date',how='left')
-        self.df_merged.fillna(0,inplace = True)
-        self.df_merged.columns=['date', '행정구역_확진자', '전국_확진자']
-        return self.df_merged
+        try:
+            df1 = make_sumcount(self.dic_gu_count[self.station_gu_dic[station]], last_nday=last_nday)[['date', 'sumcount']]
+            df2 = make_sumcount(self.df_junguk, last_nday=last_nday)[['sumcount']]
+            self.df_merged = pd.merge(df1,df2, on = 'date', how='left')
+            self.df_merged.fillna(0,inplace = True)
+            self.df_merged.columns=['date', '행정구역_확진자', '전국_확진자']
+            return self.df_merged
+        except:
+            print(station)
+        
 
     
 
@@ -35,7 +39,7 @@ class DFyoon:
 def makefulldate():
     fulldate = pd.DataFrame(columns=["date"])
     start = date(2020, 2, 1)
-    end = date(2020, 8, 31)
+    end = date(2020, 5, 31)
     for n in range(int((end - start).days) + 1):
         fulldate.loc[n, "date"] = start + timedelta(n)
     fulldate["date"] = pd.to_datetime(fulldate["date"])
@@ -51,3 +55,13 @@ def make_sumcount(df, col_name="확진자 수", last_nday=7):
         else:
             df["sumcount"][i] = sum(df[col_name][i - last_nday : i])
     return df
+
+def makefulldate2():
+    fulldate = pd.DataFrame(columns=["date"])
+    start = date(2019, 12, 1)
+    end = date(2020, 5, 31)
+    for n in range(int((end - start).days) + 1):
+        fulldate.loc[n, "date"] = start + timedelta(n)
+    fulldate["date"] = pd.to_datetime(fulldate["date"])
+
+    return fulldate
