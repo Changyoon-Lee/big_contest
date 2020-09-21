@@ -1,4 +1,9 @@
 googleapi/실시간data/*
+modeling/data/*
+./*.pickle
+./*.pkl
+./*.csv
+./*.zip
 *.pickle
 *.pkl
 *.csv
