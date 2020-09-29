@@ -1,9 +1,5 @@
-googleapi/실시간data/*
-modeling/data/*
-./*.pickle
-./*.pkl
-./*.csv
-./*.zip
+./data/*
+./modeling/data/*
 *.pickle
 *.pkl
 *.csv
